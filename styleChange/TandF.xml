@@ -1,0 +1,29 @@
+﻿<amnet-systems>
+	<character>
+       
+        <cstyle name="bold" txelm="emphasis[type=bold@role=]/emphasis[type=italic@role=]" roots="*" />
+        <cstyle name="italic" txelm="emphasis[type=italic@role=sdd@val=ooo]" roots="para|quote|poem|emphasis[type=bold]|p" />
+        <cstyle name="BoldItalic" txelm="emphasis[type=bold@role=]/emphasis[type=italic@role=]" roots="para|quote|poem|emphasis[type=bold]|emphasis[type=italic]|emphasis[type=bold@role=@role=ooo]" />
+        <cstyle name="SemiBoldItalic" txelm="emphasis[type=semiitalic@role=]/emphasis[type=semibold@role=]" roots="para[aid:pstyle=txt]|chapter/section/quote|poem|emphasis[type=bold]|emphasis[type=italic]" />
+        <cstyle name="smallCaps" txelm="emphasis[type=small-caps@role=]" roots="section/para|quote|poem|emphasis[type=italic]|emphasis[type=bold]" />
+        
+	</character>
+	<paragraph>
+        
+		<pstyle name="H1" txelm="para" roots="*"/>
+		<pstyle name="QUOTE" txelm="para" roots="blockquote" />
+		<pstyle name="TXT" txelm="para" roots="section|blockquote" />
+         <pstyle name="TXI" txelm="para" roots="section|blockquote" />
+         <pstyle name="BX_BL_F" txelm="listitem/para" roots="*" />
+         <pstyle name="BX_BL_L" txelm="listitem/para" roots="itemizedlist" />
+         <pstyle name="bullet_list" txelm="p" roots="*" />
+         <pstyle name="txi" txelm="p" roots="sec" />
+        
+	</paragraph>
+    
+	<!-- under construction
+    <object>
+        <ostyle name="BOX1" txelm="sidebar|role@BOX1;" />
+    </object>-->
+    
+</amnet-systems>
